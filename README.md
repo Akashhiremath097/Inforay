@@ -1,2 +1,7 @@
-# Inforay
-Inforay is a modular AI-driven news platform that automatically fetches real-time news, cleans and processes articles, generates summaries, classifies them into categories, analyzes sentiment, and serves them via a web dashboard.
+# Data Fetcher Module
+
+## Purpose
+Fetch news articles (NewsAPI by default), clean them, and store into MongoDB collection `raw_articles`.
+
+## Setup
+1. Create Python venv:
